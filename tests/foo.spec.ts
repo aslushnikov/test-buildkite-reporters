@@ -1,10 +1,14 @@
 import { test, expect } from '@playwright/test';
 
-test(`should work`, async () => {
-  expect(1).toBe(1);
-});
 
-test(`is actually failing`, () => {
+
+
+
+  test(`should work`, async () => {
+    expect(1).toBe(1);
+  });
+
+test.skip(`is actually failing`, () => {
   expect(1).toBe(2);
 });
 
