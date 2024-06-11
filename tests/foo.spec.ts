@@ -9,3 +9,7 @@ for (let i = 0; i < 1000; ++i) {
 test(`is actually failing`, () => {
   expect(1).toBe(2);
 });
+
+test(`this is flaking`, () => {
+  expect(test.info().retry).toBe(1);
+});
