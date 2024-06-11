@@ -3,6 +3,6 @@ import { defineConfig } from '@playwright/test';
 export default defineConfig({
   reporter: [
     ['dot'],
-    // ['buildkite-test-collector/playwright/reporter'],
+    ['buildkite-test-collector/playwright/reporter'],
   ],
 });
