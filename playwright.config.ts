@@ -2,7 +2,7 @@ import { defineConfig } from '@playwright/test';
 
 export default defineConfig({
   reporter: [
-    ['dot'],
+    ['line'],
     ['buildkite-test-collector/playwright/reporter'],
   ],
 });
