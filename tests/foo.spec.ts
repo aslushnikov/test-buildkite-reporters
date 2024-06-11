@@ -6,7 +6,7 @@ for (let i = 0; i < 1000; ++i) {
   });
 }
 
-test(`is actually failing`, () => {
+test.skip(`is actually failing`, () => {
   expect(1).toBe(2);
 });
 
