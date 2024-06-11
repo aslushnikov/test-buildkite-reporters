@@ -8,5 +8,11 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.44.1"
+  },
+  "devDependencies": {
+    "buildkite-test-collector": "^1.7.1"
+  }
 }
