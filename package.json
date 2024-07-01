@@ -13,6 +13,9 @@
     "@playwright/test": "^1.44.1"
   },
   "devDependencies": {
+    "@currents/playwright": "^1.4.3",
+    "allure-commandline": "^2.29.0",
+    "allure-playwright": "^3.0.0-beta.3",
     "buildkite-test-collector": "^1.7.1"
   }
 }

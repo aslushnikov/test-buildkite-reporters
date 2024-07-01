@@ -10,6 +10,8 @@ on:
 
 env:
   BUILDKITE_ANALYTICS_TOKEN: ${{ secrets.BUILDKITE_ANALYTICS_TOKEN }}
+  CURRENTS_RECORD_KEY: ${{ secrets.CURRENTS_RECORD_KEY }}
+  CURRENTS_CI_BUILD_ID: "${{ github.repository }}-${{ github.run_id }}-${{ github.run_attempt }}"
 
 jobs:
   test:
