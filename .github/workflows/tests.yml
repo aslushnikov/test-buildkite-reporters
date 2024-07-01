@@ -1,6 +1,8 @@
 name: Playwright Test Runner
 
 on:
+  schedule:
+    - cron: "0/10 * * * *"
   push:
     branches:
       - main

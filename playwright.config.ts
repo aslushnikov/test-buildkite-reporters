@@ -13,6 +13,6 @@ export default defineConfig({
     ['line'],
     ['buildkite-test-collector/playwright/reporter'],
     ["allure-playwright"],
-    [currentsReporter(currentsConfig)],
+    ...(process.env.CI ? [currentsReporter(currentsConfig)] : []),
   ],
 });
